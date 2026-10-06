@@ -13,9 +13,9 @@
     <hashTree>
       <!-- Grupo de usuarios concurrentes -->
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Usuarios Concurrentes" enabled="true">
-        <stringProp name="ThreadGroup.num_threads">50</stringProp> <!-- número de usuarios -->
-        <stringProp name="ThreadGroup.ramp_time">10</stringProp> <!-- tiempo para levantar usuarios -->
-        <stringProp name="ThreadGroup.loop_count">5</stringProp> <!-- repeticiones -->
+        <stringProp name="ThreadGroup.num_threads">50</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">10</stringProp>
+        <stringProp name="ThreadGroup.loop_count">5</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
       </ThreadGroup>
       <hashTree>
